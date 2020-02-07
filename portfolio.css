@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    outline: 1px solid red;
+}
+
+#wrapper{
+    background-color: rgb(165, 114, 216);
+    margin: 0px auto;
+    width: 1000px;
+    height: 1000px;   
+}
+.Top{
+    background-color: lightgray;
+}
+.Top h1{
+    display: inline-block;
+    margin-left: 10px;
+}
+.Top h2{
+    display: inline-block;
+    margin-left: 300px;
+}
+.Middle{
+    width: 850px;
+}
+.Middle img{
+    width: 400px;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px;
+}
+ .Middle .Middle-R{
+     display: inline-block;
+     width: 410px;
+     vertical-align: top;
+     background-color: darkgray;
+     margin: 5px 0 30px 0;
+     padding: 5px;
+ }
+ 
+ .Middle .Middle-R h3{
+     margin-left: 5px;
+     background-color: lightgray;
+}
+
+.Middle .Middle-R p{
+    margin-left: 5px;
+} 
+.Bottom-Main{
+    width: 800px;
+    height: 500px;
+}
+.subsections{
+    display: inline-block;
+    width: 235px;
+    height: 600px;
+    margin: 5px;
+    padding: 5px;
+    vertical-align: top;
+    background-color: lightgray;
+    }
+    .subsections .h4{
+        background-color:darkgray;
+        vertical-align: top;
+    }
+    .subsections img{
+        width: 230px;
+        height: 200px;
+    }
+.subsections .List li{
+    display: inline-block;
+}
+.subsections .List img{
+    width: 50px;
+    height: 50px;
+}
+
+
